@@ -1,0 +1,150 @@
+header{
+    background-image: url(images/Screenshot_20230220_102506.png);
+    padding-bottom: 10%;
+    background-size: 100% 100%;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: lato;
+    color: black;
+
+}
+/*hết header và thẻ chung html*/
+/*bat dau css nav*/
+nav{
+    height: 40px;
+    background: blue;
+    margin-bottom: 5px;
+
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+    padding: 0 25px;
+    border-radius: 1px solid gray;
+
+}
+nav ul li:hover .submenu{
+    background: red;
+    display: block;
+}
+nav ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+    line-height: 40px;
+}
+#nav .submenu{
+    border-radius: 5px;
+    box-shadow: 0 0 5px red;
+    list-style: none;
+    position: absolute;
+    width: 200px;
+    padding: 0px;
+    background: blue;
+    display: none;
+}
+nav .tkiem{
+    float: right;
+    line-height: 40px;
+
+}
+nav .tkiem input{
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    outline: none;
+    margin: 0px;
+    padding: 7px 10px;
+    width: 250px;
+}
+nav .tkiem button{
+    padding: 7px 10px;
+    border: none;
+    outline: none;
+    background: blue;
+    color: #fff;
+    margin-left: -5px;
+}
+/*ket thuc css nav*/
+.chaychu{
+    position: relative;
+    margin-bottom: 5px;
+    background-color: aqua;
+}
+.text{
+    background-color:aqua;
+    text-shadow: 2px 2px 5px black;
+}
+aside{
+    float: left;
+    width: 300px;
+    border-left: 1px solid gray;
+}
+h3{
+    font-size: 18px;
+    padding: 10px 15px;
+    background: blue;
+    color: #fff;
+    text-shadow: 2px 2px 5px red;
+}
+.traidoc ul {
+    list-style: none;
+
+}
+.traidoc ul li{
+    padding: 10px 15px;
+    background-color:aqua;
+    border-top: 1px solid gray;
+}
+.traidoc ul li:hover{
+    background: red;
+    color: blueviolet;
+}
+
+
+/* footer*/
+footer{
+    width: 100%;
+    clear: both;
+    background: blue;
+    color: whitesmoke;
+    
+}
+.ft1{
+    text-align: center;
+    width: 400px;
+    margin-bottom: 25px;
+
+}
+footer h3{
+    padding: 15px;
+    font-size: 20px;
+
+
+}
+.ft2{
+    width: 100%;
+    
+    clear: both;
+    height: 40px;
+    background: aquamarine;
+
+}
+.ft2 p{
+    color: black;
+    font-size: 15px;
+    font-variant: small-caps;
+    text-align: center;
+}
