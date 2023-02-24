@@ -2,6 +2,7 @@ header{
     background-image: url(images/Screenshot_20230220_102506.png);
     padding-bottom: 10%;
     background-size: 100% 100%;
+    
 
 }
 *{
@@ -36,7 +37,7 @@ nav ul li {
 }
 nav ul li:hover .submenu{
     background: red;
-    display: block;
+   
 }
 nav ul li a{
     display: inline-block;
@@ -46,16 +47,8 @@ nav ul li a{
     font-size: 20px;
     line-height: 40px;
 }
-#nav .submenu{
-    border-radius: 5px;
-    box-shadow: 0 0 5px red;
-    list-style: none;
-    position: absolute;
-    width: 200px;
-    padding: 0px;
-    background: blue;
-    display: none;
-}
+
+
 nav .tkiem{
     float: right;
     line-height: 40px;
